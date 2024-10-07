@@ -12,6 +12,7 @@ void setup(){
 
 void draw(){
 stroke(0);
+strokeWeight(1);
 background(210,180,140);
 fill(211,211,211);
 rect(80,120,340,240);
@@ -43,6 +44,7 @@ textSize(10);
 //LIGHTNING 
 void Lightning(){
   while (endX<332){ 
+  strokeWeight(5);
   stroke(57,255,20);
   endY = startingY + (int)(Math.random()*20)-10;
   endX = startingX + (int)(Math.random()*31)+10;
