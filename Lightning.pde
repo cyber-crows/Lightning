@@ -42,7 +42,6 @@ textSize(10);
 }
 //LIGHTNING 
 void Lightning(){
-System.out.println(endX);
   while (endX<332){ 
   stroke(57,255,20);
   endY = startingY + (int)(Math.random()*20)-10;
